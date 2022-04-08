@@ -1,0 +1,47 @@
+
+.hello{
+    font-size: 17px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0.7rem auto;
+}
+.occupation{
+    font-size: 14px;
+    color:#FFA97A ;
+    margin-bottom: 3%;
+}
+.buttonContainer{
+    width: 30%;
+    align-self: center;
+    margin-bottom: 1%;
+}
+.buttonContainer > *{
+    margin: auto 3% 2%;
+}
+
+.shining{
+    color:#FFA97A;
+    font-size: 30px;
+    font-weight: 800;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.details > *{
+    width: 30%;
+    margin: 0 auto 3rem;
+
+}
+.details > button{
+    width: fit-content;
+}
+.details > p{
+    color: #959595;
+    font-size: 14px;
+    line-height: 25px;
+}

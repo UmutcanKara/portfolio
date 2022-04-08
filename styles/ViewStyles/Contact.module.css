@@ -1,0 +1,45 @@
+.section{
+    background-color: #111A20;
+    margin: -1rem;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 600;
+}
+.section > h3 {
+    color: #FFA97A;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.section > p{
+    color: #bbb;
+    margin-top: 0;
+
+}
+.section > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.linkCont{
+    display: flex;
+    width: 40%;
+    align-self: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contactCont{
+    display: flex;
+    margin: 2% 5%;
+}
+.contactCont > p{
+    margin: 0;
+}
+.contactCont > svg {
+    margin-right: 0.4rem;
+}
+

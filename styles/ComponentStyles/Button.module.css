@@ -1,0 +1,22 @@
+.normal,
+.filled{
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    transition: all 300ms linear;
+    cursor: pointer;
+}
+
+.normal{
+    border: 1px #FFA97A solid;
+    background-color: #17232B;
+    color: #ffffff;
+}
+
+.filled {
+    border: none;
+    background-color: #FFA97A;
+    color: #17232B;
+}

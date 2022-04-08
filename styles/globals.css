@@ -2,10 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Jost', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
+a:visited,
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +15,31 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple 600ms linear;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+
+section{
+    background-color: #111A20;
+    margin: -1rem;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 600;
 }

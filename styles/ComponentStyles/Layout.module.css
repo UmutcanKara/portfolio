@@ -1,0 +1,42 @@
+.main{
+    padding-left: 8%;
+}
+.nav {
+    background-color: #17232B;
+    color: #ffffff;
+    display: flex;
+    padding: 1%;
+    position: sticky;
+    
+}
+.name {
+    margin: auto 10%;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container > * {
+    margin-right: 3%;
+}
+.link{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-right: 10%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFA97A;
+    padding: 1%;
+    color: #17232B;
+}
+.footer > p {
+    float: right;
+    font-size: 10px;
+}

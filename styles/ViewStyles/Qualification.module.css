@@ -1,0 +1,75 @@
+.section {
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.section > h3 {
+    color: #FFA97A;
+    font-size: 30px;
+}
+.section > h4{
+    font-size: 25px;
+    line-height: 32px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.bubble{
+    width: 25%;
+    background-color: #182228;
+    border-radius: 16px;
+    margin: 2% 3%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.bubble > *{
+    text-align: left;
+}
+.bubble > h4{
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 2%;
+    vertical-align: middle;
+}
+.bubble > p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #bbb;
+    /* width: 60%; */
+}
+.bubble > h4 > svg{
+    height: 22px;
+    margin-left: 2%;
+    color: #FFA97A;
+    vertical-align: middle;
+}
+.bubble > button {
+    align-self: flex-end;
+    margin-top: auto;
+    
+}
+.skillCont{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    width: 70%;
+    align-self: center;
+}
+.skillCont > * {
+    background-color: #182228;
+    padding: 1rem ;
+    margin: 3% 3rem;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.skillCont > * > svg {
+    position: relative;
+    top: 5px;
+    color: #FFA97A;
+}
